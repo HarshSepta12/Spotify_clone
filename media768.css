@@ -1,0 +1,88 @@
+@media screen and (max-width:768px) {
+    .sidebar {
+        width: 37%;
+        height: 100vh;
+    }
+    .home{
+        margin-left: -1rem;
+    }
+    .search {
+        
+        margin-left: -1rem;
+    }
+    .librebary .li_logo img {
+        width: 18px;
+        height: 18px;
+    }
+    .shift {
+        margin-left: 72px;
+    }
+    .playlist {
+        width: 86%;
+        line-height: 43px;
+        margin-left: 2px;
+    }
+    .podcast {
+        width: 82%;
+        line-height: 29px;
+        margin-left: 3px;
+    }
+    
+    .main {
+        width: 70%;
+        margin-left: 18rem;
+        margin-top: -629px;
+        overflow: scroll;
+    }
+    .main .forward_backward .button button {
+        display: none
+    }
+    #btn {
+        margin-top: -1px;
+        margin-left: 9rem;
+    }
+    .main .mix button {
+        position: absolute;
+        left: 43rem;
+    }
+    .main .album {
+        display: grid;
+        gap: 2px;
+        grid-template-columns: 1fr auto;
+    }
+    .main .forward_backward {
+        position: sticky;
+        top: 18px;
+        z-index: 2;
+    }
+    .librebary {
+        width: 17rem;
+        height: 379px;
+        overflow: scroll;
+        position: fixed;
+        margin-top: 8px;
+        border-radius: 10px;
+        overflow-x: hidden;
+    }
+    .player .player_item {
+        margin-top: 10px;
+        gap: 10px;
+        margin-left: 2rem;
+    }
+    .player .playbar {
+        margin-left: -9rem;
+    }
+    .player {
+        width: 98.6vw;
+        margin-top: 1px;
+        position: fixed;
+        /* top: 37rem; */
+        top: 607px;
+    }
+    .main .ar {
+        margin-left: -2rem;
+    }
+
+
+}
+
