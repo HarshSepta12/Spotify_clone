@@ -1,7 +1,7 @@
 @media screen and (max-width:768px) {
     .sidebar {
         width: 37%;
-        height: 100vh;
+        height: 111vh;
     }
     .home{
         margin-left: -1rem;
@@ -31,7 +31,7 @@
     .main {
         width: 70%;
         margin-left: 18rem;
-        margin-top: -629px;
+        margin-top: -43.8rem;
         overflow: scroll;
     }
     .main .forward_backward .button button {
@@ -52,7 +52,7 @@
     }
     .main .forward_backward {
         position: sticky;
-        top: 18px;
+        top: 0px;
         z-index: 2;
     }
     .librebary {
@@ -76,8 +76,8 @@
         width: 98.6vw;
         margin-top: 1px;
         position: fixed;
-        /* top: 37rem; */
-        top: 607px;
+        top: 38rem;
+        /* top: 100rem; */
     }
     .main .ar {
         margin-left: -2rem;
